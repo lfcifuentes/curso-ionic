@@ -1,0 +1,11 @@
+{
+  "name": "tecnoDeezer",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "proxies": [{
+    "path": "/deezerAPI",
+    "proxyUrl": "http://api.deezer.com/"
+  }]
+}
